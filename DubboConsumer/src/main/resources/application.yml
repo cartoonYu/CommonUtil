@@ -1,0 +1,19 @@
+server:
+  port: 7190
+spring:
+  application:
+    name: dubbo-consumer
+  cloud:
+    nacos:
+    discovery:
+      server-addr: cartoon-ali.com
+dubbo:
+  protocol:
+    port: -1
+    name: dubbo
+  registry:
+    address: nacos://cartoon-ali.com:8848
+  cloud:
+    subscribed-services: dubbo-spring-cloud-provider
+  application:
+    name: consumer

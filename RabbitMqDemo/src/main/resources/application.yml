@@ -1,0 +1,5 @@
+server:
+  port: 7130
+spring:
+  application:
+    name: RabbitMqDemo

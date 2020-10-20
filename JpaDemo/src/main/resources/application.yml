@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:mysql://cartoon-ali.com:3306/test
+    username: test
+    password: $Qwe13579
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: mysqlDemo
+server:
+  port: 7120
+logging:
+  level:
+    org.springframework.security:
+      - debug
+      - info
+    org.springframework.web: error
+    org.hibernate.SQL: debug
+    org.hibernate.engine.QueryParameters: debug
+    org.hibernate.engine.query.HQLQueryPlan: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace

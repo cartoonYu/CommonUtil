@@ -1,0 +1,10 @@
+dubbo:
+  registry:
+    address: nacos://cartoon-ali.com:8848
+  application:
+    name: dubbo-producer
+  protocol:
+    port: -1
+    name: dubbo
+server:
+  port: 7180
