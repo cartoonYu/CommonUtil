@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: XxlJobDemo
+server:
+  port: 7240
