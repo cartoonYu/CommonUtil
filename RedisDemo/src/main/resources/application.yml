@@ -1,15 +1,5 @@
 server:
   port: 7110
 spring:
-  redis:
-    database: 0
-    host: 127.0.0.1
-    port: 6379
-    timeout: 1000
-    jedis:
-      pool:
-        max-idle: 8
-        min-idle: 0
-        max-wait: -1
   application:
     name: redisDemo
