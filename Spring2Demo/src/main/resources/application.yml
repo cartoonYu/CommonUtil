@@ -1,5 +1,5 @@
 server:
-  port: 7170
+  port: 7160
 spring:
   application:
     name: spring2

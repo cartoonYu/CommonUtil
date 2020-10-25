@@ -7,4 +7,4 @@ dubbo:
     port: -1
     name: dubbo
 server:
-  port: 7180
+  port: 7170

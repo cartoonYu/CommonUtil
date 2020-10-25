@@ -1,5 +1,5 @@
 server:
-  port: 7190
+  port: 7180
 spring:
   application:
     name: dubbo-consumer

@@ -30,45 +30,41 @@ This project is primarily used to test the middleware separately in day-to-day d
    1. used to test function which related with kafka
    2. bootstrap port is 7140
    3. api document url is http://localhost:7140/doc
-8. ShardingJdbcDemo
-   1. used to test function which related with sharding jdbc
-   2. bootstrap port is 7150
-   3. api document url is http://localhost:7150/doc
-9. ShardingSephereDemo
+8. ShardingSephereDemo
    1. used to test function which related with shardingSephere
    2. bootstrap port is 7160
-   3. api document url is http://localhost:7160/doc
-10. spring2
+   3. api document url is http://localhost:7150/doc
+9. spring2
    1. used to test api of spring
    2. used to test third-party packages of maven
    3. used to test linkage with spring module
    3. bootstrap port is 7170
-   4. api document url is http://localhost:7170/doc
-11. DubboProducer
+   4. api document url is http://localhost:7160/doc
+10. DubboProducer
    1. used to test api of dubbo
    2. define implementation class to provide service
    3. bootstrap port is 7180
-   4. api document url is http://localhost:7180/doc
-12. DubboConsumer
+   4. api document url is http://localhost:7170/doc
+11. DubboConsumer
    1. used to test api of dubbo
    2. consume provider's service
    3. bootstrap port is 7190
-   4. api document url is http://localhost:7190/doc
-13. EurekaProducer
+   4. api document url is http://localhost:7180/doc
+12. EurekaProducer
    1. used to test api of eureka
    2. define implementation class to provide service
    3. bootstrap port is 7200
-   4. api document url is http://localhost:7200/doc
-14. EurekaConsumer
+   4. api document url is http://localhost:7190/doc
+13. EurekaConsumer
    1. used to test api of eureka
    2. consume provider's service
    3. bootstrap port is 7210
-   4. api document url is http://localhost:7210/doc
-15. Mongo Demo
+   4. api document url is http://localhost:7200/doc
+14. Mongo Demo
    1. used to test function which related with mongo
    2. bootstrap port is 7220
-   3. api document url is http://localhost:7220/doc
-16. Mybatis Demo
+   3. api document url is http://localhost:7210/doc
+15. Mybatis Demo
    1. used to test function which related with mybatis
    2. bootstrap port is 7230
-   3. api document url is http://localhost:7230/doc
+   3. api document url is http://localhost:7220/doc
