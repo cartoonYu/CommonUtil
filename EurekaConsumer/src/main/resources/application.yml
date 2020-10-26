@@ -1,9 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cartoon-ali.com:6001/eureka/
 spring:
   application:
     name: EurekaConsumer
 server:
-  port: 7210
-eureka:
-  client:
-    service-url:
-      defaultZone: http://cartoon-ali.com:6001/eureka
+  port: 7200

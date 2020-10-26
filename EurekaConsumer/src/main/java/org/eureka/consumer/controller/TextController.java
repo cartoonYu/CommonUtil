@@ -26,7 +26,7 @@ public class TextController {
     @Api(name = "text", version = "1.0")
     @ApiDocMethod(description = "测试", resultClass = String.class)
     public String text(){
-        return "mysql demo";
+        return "eureka consumer";
     }
 
     @Api(name = "simulation_call", version = "1.0")

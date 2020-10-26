@@ -23,12 +23,13 @@
         <spring.boot.web.version>2.3.4.RELEASE</spring.boot.web.version>
         <fastjson.version>1.2.74</fastjson.version>
         <eureka.client.version>2.2.5.RELEASE</eureka.client.version>
+        <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -85,11 +86,9 @@
             <version>${fastjson.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-            <version>${eureka.client.version}</version>
         </dependency>
 
     </dependencies>
