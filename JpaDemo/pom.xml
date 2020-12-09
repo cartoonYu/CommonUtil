@@ -22,6 +22,7 @@
         <slf4j.version>1.7.30</slf4j.version>
         <spring.boot.web.version>2.3.4.RELEASE</spring.boot.web.version>
         <fastjson.version>1.2.74</fastjson.version>
+        <guava.version>30.0-jre</guava.version>
         <mysql.connector.version>8.0.22</mysql.connector.version>
         <jpa.version>2.3.4.RELEASE</jpa.version>
     </properties>
@@ -77,6 +78,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring.boot.web.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->

@@ -22,6 +22,7 @@
         <slf4j.version>1.7.30</slf4j.version>
         <spring.boot.web.version>2.3.4.RELEASE</spring.boot.web.version>
         <fastjson.version>1.2.74</fastjson.version>
+        <guava.version>30.0-jre</guava.version>
         <kafka.version>2.6.0</kafka.version>
     </properties>
 
@@ -85,13 +86,18 @@
             <version>${fastjson.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka -->
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
             <version>${kafka.version}</version>
         </dependency>
-
 
     </dependencies>
 
