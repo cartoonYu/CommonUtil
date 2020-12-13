@@ -45,6 +45,6 @@ public class KafkaProducerConfig {
     private void init(){
         //kafka地址 host 设置
         //host格式: ip:port
-        host = "cartoon-huawei.com:9092";
+        host = "cartoon-ali.com:9092";
     }
 }
