@@ -55,10 +55,10 @@ public class RabbitConfig {
     @PostConstruct
     private void init(){
         //rabbitmq配置
-        host = "127.0.0.1";
+        host = "cartoon-ali.com";
         port = 5672;
-        userName = "guest";
-        password = "guest";
+        userName = "cartoon";
+        password = "asd12345";
         virtualHost = "/";
     }
 }
