@@ -68,3 +68,6 @@ This project is primarily used to test the middleware separately in day-to-day d
    1. used to test function which related with mybatis
    2. bootstrap port is 7230
    3. api document url is http://localhost:7220/doc
+16. Canal Demo
+   1. used to test function which related with canal
+   2. this module is process project

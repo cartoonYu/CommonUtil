@@ -69,3 +69,6 @@
    1. 用于测试依赖 Mybatis 相关 API 功能
    2. 依赖端口为7230
    3. api 文档地址为 http://localhost:7220/doc
+16. CanalDemo
+   1. 用于测试依赖 Canal 相关 API 功能
+   2. 本模块为后台进程项目
