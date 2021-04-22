@@ -51,7 +51,7 @@ public class RedisConfig {
     @PostConstruct
     public void init(){
         host = "cartoon-ali.com";
-        port = 6379;
+        port = 6005;
         password = "asd12345";
     }
 }
