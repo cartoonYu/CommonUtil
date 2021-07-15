@@ -63,12 +63,16 @@
    4. api 文档地址为 http://localhost:7200/doc
 14. MongoDemo
    1. 用于测试依赖 MongoDB 相关 API 功能
-   2. 依赖端口为7220
+   2. 依赖端口为7210
    3. api 文档为 http://localhost:7210/doc
 15. MybatisDemo
    1. 用于测试依赖 Mybatis 相关 API 功能
-   2. 依赖端口为7230
+   2. 依赖端口为7220
    3. api 文档地址为 http://localhost:7220/doc
 16. CanalDemo
    1. 用于测试依赖 Canal 相关 API 功能
    2. 本模块为后台进程项目
+16. Nacos configuration Demo
+   1. 用于测试依赖 Nacos 配置相关 API 功能
+   2. 依赖端口为 7230
+   3. api 文档地址为 http://localhost:7230/doc

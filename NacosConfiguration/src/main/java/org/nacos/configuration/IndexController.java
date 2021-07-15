@@ -1,16 +1,15 @@
-package org.spring.demo;
+package org.nacos.configuration;
 
 import com.gitee.easyopen.ApiConfig;
 import com.gitee.easyopen.interceptor.ApiInterceptor;
 import com.gitee.easyopen.support.ApiController;
-import org.spring.demo.util.LogInterceptor;
+import org.nacos.configuration.util.LogInterceptor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * api doc: http://localhost:7100/doc
+ * api doc: http://localhost:7230/doc
  * @author cartoon
- * @description
  */
 @RestController
 @RequestMapping

@@ -71,3 +71,6 @@ This project is primarily used to test the middleware separately in day-to-day d
 16. Canal Demo
    1. used to test function which related with canal
    2. this module is process project
+17. Nacos configuration Demo
+   1. used to test function which related with nacos configuration
+   2. api document url is http://localhost:7230/doc

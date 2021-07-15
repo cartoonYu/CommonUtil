@@ -1,1 +1,5 @@
-
+server:
+  port: 7230
+nacos:
+  server:
+    addr: http://cartoon-ali.com:8848
