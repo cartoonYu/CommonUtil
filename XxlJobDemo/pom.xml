@@ -11,70 +11,16 @@
     <artifactId>XxlJobDemo</artifactId>
     <version>1.0.0</version>
     <name>XxlJobDemo</name>
-    <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>1.8</java.version>
-        <common.version>1.0.0</common.version>
-        <easyopen.version>1.16.10</easyopen.version>
-        <spring.tx.version>5.2.9.RELEASE</spring.tx.version>
-        <slf4j.version>1.7.30</slf4j.version>
-        <spring.boot.web.version>2.3.4.RELEASE</spring.boot.web.version>
-        <fastjson.version>1.2.74</fastjson.version>
         <xxl.job.version>2.2.0</xxl.job.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <dependency>
             <groupId>org</groupId>
             <artifactId>common</artifactId>
             <version>${common.version}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/net.oschina.durcframework/easyopen -->
-        <dependency>
-            <groupId>net.oschina.durcframework</groupId>
-            <artifactId>easyopen</artifactId>
-            <version>${easyopen.version}</version>
-        </dependency>
-
-
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-tx</artifactId>
-            <version>${spring.tx.version}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring.boot.web.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.xuxueli/xxl-job-core -->

@@ -17,10 +17,16 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <guava.version>30.0-jre</guava.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <guava.version>30.1.1-jre</guava.version>
         <http.client.version>4.5.13</http.client.version>
-        <slf.api.version>1.7.30</slf.api.version>
+        <slf4j.api.version>1.7.32</slf4j.api.version>
         <fastjson.version>1.2.74</fastjson.version>
+        <easyopen.version>1.16.17</easyopen.version>
+        <spring.tx.version>5.3.9</spring.tx.version>
+        <spring.boot.web.version>2.5.4</spring.boot.web.version>
+        <common.version>1.0.0</common.version>
     </properties>
 
     <dependencies>
@@ -34,7 +40,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf.api.version}</version>
+            <version>${slf4j.api.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
@@ -49,6 +55,46 @@
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.oschina.durcframework/easyopen -->
+        <dependency>
+            <groupId>net.oschina.durcframework</groupId>
+            <artifactId>easyopen</artifactId>
+            <version>${easyopen.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.tx.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.web.version}</version>
+        </dependency>
+
+
 
 
     </dependencies>
