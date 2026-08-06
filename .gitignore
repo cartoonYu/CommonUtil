@@ -3,3 +3,6 @@
 */target
 */.mvn
 *.iml
+gradlew
+gradlew.bat
+gradle/wrapper

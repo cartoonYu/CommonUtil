@@ -1,5 +1,0 @@
-server:
-  port: 7110
-spring:
-  application:
-    name: redisDemo

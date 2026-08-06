@@ -1,8 +1,0 @@
-server:
-  port: 7210
-spring:
-  data:
-    mongodb:
-      host: 127.0.0.1
-      port: 27017
-      database: text
