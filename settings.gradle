@@ -1,3 +1,4 @@
 rootProject.name = 'CommonUtil'
 include 'Usual'
 include 'SpringBootDemo'
+include 'RedisDemo'

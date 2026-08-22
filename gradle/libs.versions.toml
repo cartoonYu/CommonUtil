@@ -12,4 +12,6 @@ logbackCore = {module = "ch.qos.logback:logback-core", version.ref = "logbackCor
 springBoot = {module = "org.springframework.boot:spring-boot-starter", version.ref = "springBoot"}
 springBootWeb = {module = "org.springframework.boot:spring-boot-starter-web", version.ref = "springBoot"}
 springBootWebApiUI = {module = "org.springdoc:springdoc-openapi-starter-webmvc-ui", version.ref = "springBootWebApi"}
+springBootRedis = {module = "org.springframework.boot:spring-boot-starter-data-redis" }
+
 [plugins]

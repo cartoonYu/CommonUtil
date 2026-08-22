@@ -14,9 +14,11 @@
    1. 用于测试依赖 Spring 框架相关 API 功能
    2. 用于测试依赖第三方包相关 API 功能
    3. 依赖端口为7100
+   4. api 文档地址: http://localhost:7100/api
 4. redisDemo
    1. 用于测试依赖 redis 相关 API 功能
    2. 依赖端口为7110
+   3. api 文档地址: http://localhost:7110/api
 5. mysqlDemo
    1. 用于测试依赖数据库的功能
    2. 依赖端口为7120
