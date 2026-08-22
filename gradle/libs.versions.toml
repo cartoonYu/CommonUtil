@@ -1,7 +1,15 @@
 [versions]
 slf4j = "2.0.18"
-logback = "1.5.38"
+logback = "1.6.1"
+logbackCore = "1.6.1"
+springBoot = "3.5.16"
+springBootWebApi = "2.9.0"
 
 [libraries]
 slf4j = {module = "org.slf4j:slf4j-api", version.ref = "slf4j"}
 logback = {module = "ch.qos.logback:logback-classic", version.ref = "logback"}
+logbackCore = {module = "ch.qos.logback:logback-core", version.ref = "logbackCore"}
+springBoot = {module = "org.springframework.boot:spring-boot-starter", version.ref = "springBoot"}
+springBootWeb = {module = "org.springframework.boot:spring-boot-starter-web", version.ref = "springBoot"}
+springBootWebApiUI = {module = "org.springdoc:springdoc-openapi-starter-webmvc-ui", version.ref = "springBootWebApi"}
+[plugins]

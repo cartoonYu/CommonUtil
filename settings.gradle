@@ -1,2 +1,3 @@
 rootProject.name = 'CommonUtil'
 include 'Usual'
+include 'SpringBootDemo'
