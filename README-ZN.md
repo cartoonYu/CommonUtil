@@ -22,6 +22,7 @@
 5. mysqlDemo
    1. 用于测试依赖数据库的功能
    2. 依赖端口为7120
+   3. api 文档地址: http://localhost:7120/api
 6. kafkaDemo
    1. 用于测试依赖 Kafka 相关 API 功能
    2. 依赖端口为7140

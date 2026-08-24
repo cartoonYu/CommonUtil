@@ -21,6 +21,7 @@ This project is primarily used to test the middleware separately in day-to-day d
 5. mysqlDemo
    1. use jpa to test function which related with mysql
    2. bootstrap port is 7120
+   3. api document url is http://localhost:7120/api
 6. kafkaDemo
    1. used to test function which related with kafka
    2. bootstrap port is 7140
