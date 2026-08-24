@@ -16,5 +16,5 @@ springBootWebApiUI = {module = "org.springdoc:springdoc-openapi-starter-webmvc-u
 springBootRedis = {module = "org.springframework.boot:spring-boot-starter-data-redis" }
 springBootMybatis = {module = "org.mybatis.spring.boot:mybatis-spring-boot-starter", version.ref = "springBootMybatis"}
 mysqlConnector= { module = "com.mysql:mysql-connector-j" }
-
+springBootKafka = { module = "org.springframework.kafka:spring-kafka" }
 [plugins]
