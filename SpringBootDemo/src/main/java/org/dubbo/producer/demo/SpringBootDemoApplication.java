@@ -1,4 +1,4 @@
-package org.spring.boot.demo;
+package org.dubbo.producer.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

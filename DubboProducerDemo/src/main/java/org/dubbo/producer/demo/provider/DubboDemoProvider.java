@@ -1,8 +1,9 @@
-package org.spring.boot.demo.provider;
+package org.dubbo.producer.demo.provider;
 
-import jakarta.annotation.PostConstruct;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.common.DubboDemoService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author cartoon.yu
@@ -11,13 +12,12 @@ import org.common.DubboDemoService;
 @DubboService
 public class DubboDemoProvider implements DubboDemoService {
 
+    private static Logger log = LoggerFactory.getLogger(DubboDemoProvider.class);
+
     @Override
     public String say() {
+        log.info("execute");
         return "DubboDemoProvider";
     }
 
-    @PostConstruct
-    public void init() {
-        System.out.println("DubboDemoProvider initialized");
-    }
 }

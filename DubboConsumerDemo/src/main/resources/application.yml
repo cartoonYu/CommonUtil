@@ -1,11 +1,8 @@
 server:
-  port: 7140
+  port: 7150
 dubbo:
   application:
-    name: DubboProducerDemo
-  protocol:
-    name: dubbo
-    port: 20880
+    name: DubboConsumerDemo
   registry:
     address: nacos://localhost:8848
     username: nacos
