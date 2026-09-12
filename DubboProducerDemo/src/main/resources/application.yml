@@ -1,0 +1,17 @@
+server:
+  port: 7140
+dubbo:
+  application:
+    name: DubboProducerDemo
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: org.spring.boot.demo.provider
+  registry:
+    address: nacos://localhost:8848
+    username: nacos
+    password: nacos
+springdoc:
+  swagger-ui:
+    path: /api

@@ -24,12 +24,15 @@ This project is primarily used to test the middleware separately in day-to-day d
    3. api document url is http://localhost:7120/api
 6. kafkaDemo
    1. used to test function which related with kafka
-   2. bootstrap port is 7140
+   2. bootstrap port is 7130
+   3. api document url is http://localhost:7130/api
 7. DubboProducer
    1. used to test api of dubbo
    2. define implementation class to provide service
-   3. bootstrap port is 7180
+   3. bootstrap port is 7140
+   4. api document url is http://localhost:7140/api
 8. DubboConsumer
    1. used to test api of dubbo
    2. consume provider's service
-   3. bootstrap port is 7190
+   3. bootstrap port is 7150
+   4. api document url is http://localhost:7150/api

@@ -25,12 +25,12 @@
    3. api 文档地址: http://localhost:7120/api
 6. kafkaDemo
    1. 用于测试依赖 Kafka 相关 API 功能
-   2. 依赖端口为7140
+   2. 依赖端口为7130
 7. DubboProducer
    1. 用于测试 dubbo 相关 api
    2. 用于定义向外提供服务的实现类
-   3. 依赖端口为7180
+   3. 依赖端口为7140
 8. DubboConsumer
    1. 用于测试 dubbo 相关 api
    2. 用于消费提供者提供的服务
-   3. 依赖端口为7190
+   3. 依赖端口为7150
